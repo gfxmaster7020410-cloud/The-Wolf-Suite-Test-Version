@@ -1,0 +1,27 @@
+# ---- Secrets ----
+.env
+.env.local
+.env.*.local
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# ---- Node / Next.js ----
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# ---- Runtime data (browser profiles, cookies, dumps, logs) ----
+data/
+temp/
+*.db
+*.db-journal
+
+# ---- Tooling artifacts ----
+.playwright-mcp/

@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0c1118;
+  --panel: #1a2332;
+  --text: #e8eef7;
+  --muted: #8b9bb4;
+  --accent: #c4a35a;
+  --font-body: var(--font-base-neue), system-ui, sans-serif;
+  --font-display: var(--font-base-neue), system-ui, sans-serif;
+  --font-label: var(--font-base-neue), system-ui, sans-serif;
+}
+
+body {
+  background: radial-gradient(ellipse at top, #1a2332 0%, #0c1118 55%);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-weight: 400;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-display {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.font-label {
+  font-family: var(--font-label);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
